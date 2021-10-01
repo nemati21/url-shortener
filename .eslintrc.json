@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "security"
+  ],
+  "extends": [
+    "airbnb/base",
+    "plugin:security/recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "max-len": "off",
+    "camelcase": "off",
+    "semi":"error",
+    "quotes": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": false
+    }
+  },
+  "env": {
+    "node": true
+  }
+}

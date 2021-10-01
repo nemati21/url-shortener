@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener-service",
+  "version": "1.0.0",
+  "description": "URL Shortener Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development & nodemon ./src/index.js"
+  },
+  "author": "Behnaz Nemati",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "browser-detect": "^0.2.28",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.22.0",
+    "fastify-swagger": "^4.12.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.1",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "2.3.0"
+  }
+}
